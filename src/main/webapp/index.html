@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>simple page for manual rest test</title>
+</head>
+<body>
+	<h1>Create a new property</h1>
+	<form action="localhost:8080/api/create" method="post">
+		<textarea rows="20" cols="50">
+{
+  "x": 222,
+  "y": 444,
+  "title": "titulo do imovel",
+  "price": 0,
+  "description": "foo bar",
+  "beds": 1,
+  "baths": 1,
+  "squareMeters": 70
+}		
+		</textarea>
+		</p>
+		<input type="submit" value="Submit">
+	</form>
+	
+	<h1>find a property by some ids...</h1>
+	<a href="http://localhost:8080/api/properties/13">id:13</a>
+	<a href="http://localhost:8080/api/properties/100">id:100</a>
+	<a href="http://localhost:8080/api/properties/4000">id:4000</a>
+	
+	<h1>find all properties on a area</h1>
+	<form action="localhost:8080/api/properties" method="get">
+		</p><input type="text" name="ax" placeholder="ax">
+		</p><input type="text" name="ay"  placeholder="ay">
+		</p><input type="text" name="bx"  placeholder="bx">
+		</p><input type="text" name="by"  placeholder="by">
+		</p><input type="submit" value="Submit">
+	</form>
+	
+</body>
+</html>
