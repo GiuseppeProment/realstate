@@ -1,4 +1,7 @@
 *.class
 *.jar
 target/**
-code-challenge
+*.jar
+*.war
+*.ear
+hs_err_pid*
