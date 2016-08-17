@@ -4,4 +4,4 @@ target/**
 *.jar
 *.war
 *.ear
-hs_err_pid*
+hs_err_pid*Dockerfile~
