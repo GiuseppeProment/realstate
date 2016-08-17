@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>realstate</groupId>
 	<artifactId>realstate-api</artifactId>
-	<name>VivaReal Api</name>
+	<name>realstate api</name>
 	<packaging>war</packaging>
 	<version>1</version>
 
