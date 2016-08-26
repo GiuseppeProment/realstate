@@ -1,1 +1,1 @@
-web: mvn jetty:run
+web: mvn -Djetty.http.port=$PORT jetty:run
